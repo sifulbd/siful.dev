@@ -5,19 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <title>Siful Islam | Frontend Developer | React Developer</title>
-        
+
         <link rel="icon" href="./favicon.ico" />
         <link rel="apple-touch-icon" href="./logo192.png" />
-        
+
         <meta name="theme-color" content="rgb(0 122 255)" />
         <meta name="description" content="a Frontend Engineer skilled in Vue.js and React. I've mastered crafting user-friendly web interfaces and API integrations at top tech companies." />
-        
+
         <meta name="robots" content="index,follow" />
         <meta name="googlebot" content="index,follow" />
-        <meta name ="google" content="nositelinkssearchbox"></metaname>
+        <meta name="google" content="nositelinkssearchbox" />
         <!-- <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="> -->
         <meta name="keywords" content="siful islam, siful islam frontend developer, easyfrontend, react developer lisbon, frontend developer portugal" />
-        
+
         <link rel="manifest" href="./manifest.json" />
 
         <!-- Require stylesheet load from local -->
@@ -32,7 +32,7 @@
 
     <body class="dark:bg-[#0b1727]">
         <!-- START: Body Content -->
-        <header class="sticky top-0 ezy__nav5 py-6 pb-0 bg-white dark:bg-[#0b1727] text-zinc-900 dark:text-white relative">
+        <header class="absolute left-0 right-0 top-0 ezy__nav5 py-6 pb-0 bg-white dark:bg-[#0b1727] text-zinc-900 dark:text-white relative">
             <nav>
                 <div class="container px-4">
                     <div class="flex items-center justify-between">
@@ -42,24 +42,25 @@
                             <div class="h-0.5 w-7 bg-black dark:bg-white"></div>
                             <div class="h-0.5 w-7 bg-black dark:bg-white translate-y-2"></div>
                         </button>
-                        <div class="flex flex-col lg:flex-row justify-center lg:justify-between items-center text-3xl gap-6 lg:text-base lg:gap-2 absolute h-screen w-screen top-0 left-full lg:left-0 lg:relative lg:h-auto lg:w-auto bg-white dark:bg-[#0b1727] lg:bg-transparent grow" id="navbar">
+                        <div
+                            class="hidden sm:flex flex-col lg:flex-row justify-center lg:justify-between items-center text-3xl gap-6 lg:text-base lg:gap-2 absolute h-screen w-screen top-0 left-full lg:left-0 lg:relative lg:h-auto lg:w-auto bg-white dark:bg-[#0b1727] lg:bg-transparent grow"
+                            id="navbar"
+                        >
                             <ul class="flex">
                                 <li class="">
-                                    <a class="px-4 opacity-100" href="#">Home</a>
+                                    <a class="px-4 opacity-100" href="index.html">Home</a>
                                 </li>
                                 <li class="">
-                                    <a class="px-4 opacity-50 hover:opacity-100" href="#">Products</a>
+                                    <a class="px-4 opacity-50 hover:opacity-100" href="https://easyfrontend.com/" target=" _blank">Products</a>
                                 </li>
+
                                 <li class="">
-                                    <a class="px-4 opacity-50 hover:opacity-100" href="#">Experience</a>
-                                </li>
-                                <li class="">
-                                    <a class="px-4 opacity-50 hover:opacity-100" href="#">Contact</a>
+                                    <a class="px-4 opacity-50 hover:opacity-100" href="mailto:sifulsmm@gmail.com">Contact</a>
                                 </li>
                             </ul>
                             <ul class="flex items-center justify-center mb-2 lg:mb-0">
                                 <li>
-                                    <a href="https://calendly.com/sifulislam" target="_blank" class="bg-white bg-opacity-10 text-opacity-70 hover:text-opacity-100 text-white hover:bg-opacity-10 rounded-lg px-4 py-2 ml-2">Book an Appoinment</a>
+                                    <a href="https://github.com/sifulbd/siful.dev/fork" target="_blank" class="bg-white bg-opacity-10 text-opacity-70 hover:text-opacity-100 text-white hover:bg-opacity-10 rounded-lg px-4 py-2 ml-2">Fork this template <span class="fab fa-github ml-2"></span></a>
                                 </li>
                             </ul>
                         </div>
@@ -67,13 +68,13 @@
                 </div>
             </nav>
         </header>
-        <section class="ezy__team5 light pt-8 py-14 md:py-24 bg-white dark:bg-[#0b1727] text-zinc-900 dark:text-white">
-            <div class="container flex flex-row justify-center items-center px-4 mx-auto">
-                <div class="flex flex-row justify-center items-center w-full mt-12 xl:w-11/12 gap-6">
+        <section class="ezy__team5 light pt-8 py-14 md:py-24 content-center bg-white dark:bg-[#0b1727] text-zinc-900 dark:text-white">
+            <div class="container flex flex-col sm:flex-row justify-center items-center px-4 mx-auto">
+                <div class="flex flex-col sm:flex-row justify-center items-center w-full mt-12 xl:w-11/12 gap-6">
                     <div class="w-full sm:w-1/2 xl:w-1/3">
-                        <img src="./dist/images/siful.png" alt="" class="h-[300px] w-[300px] mx-auto rounded-full" />
+                        <img src="./dist/images/siful.png" alt="siful frontend developer" class="h-[300px] w-[300px] mx-auto rounded-full" />
                     </div>
-                    <div class="w-full sm:w-1/2 md:mt-0">
+                    <div class="w-full sm:w-1/2 md:mt-0 justify-center text-center sm:text-left">
                         <div class="h-full flex flex-col justify-center">
                             <h1 class="text-3xl opacity-80 font-medium mb-1">Siful Islam</h1>
                             <p class="mb-6 opacity-60">Frontend Developer</p>
@@ -87,17 +88,22 @@
                                 <a href="https://www.linkedin.com/in/getsiful/" target="_blank" class="inline-block opacity-60 transition duration-300 hover:translate-y-1 hover:opacity-100 mr-4"><span class="fab fa-linkedin-in"></span></a>
                                 <a href="https://twitter.com/getsiful" target="_blank" class="inline-block opacity-60 transition duration-300 hover:translate-y-1 hover:opacity-100 mr-4"><span class="fab fa-twitter"></span></a>
                             </div>
+                            <ul class="flex flex-col mt-8">
+                                <li>
+                                    <a href="https://calendly.com/sifulislam" target="_blank" class="bg-white bg-opacity-10 text-opacity-70 hover:text-opacity-100 text-white hover:bg-opacity-10 rounded-lg px-4 py-2">Book an Appoinment</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <footer class="absolute bottom-0 left-0 right-0 bg-white ezy__copyright4 bg-white text-opacity-30  bg-opacity-10 text-zinc-900 dark:text-white py-4">
+        <footer class="sm:absolute bottom-0 left-0 right-0 bg-white ezy__copyright4 bg-white text-opacity-30 bg-opacity-10 text-zinc-900 dark:text-white py-4">
             <div class="container">
-              <div class="text-center opacity-30">
-                <p>Copyright all rights reserved</p>
-              </div>
+                <div class="text-center opacity-30 hover:opacity-90">
+                    <p>Copyright all rights reserved</p>
+                </div>
             </div>
         </footer>
 
