@@ -1,7 +1,7 @@
 # EasyFrontend Generated Project
 
-Website: [http://easyfrontend.com](http://easyfrontend.com/)
+Website: [http://easyfrontend.com](http://siful.dev/)
 
 
 ## Usefull links
-Documentation: [http://help.easyfrontend.com](http://help.easyfrontend.com/)
+EasyFrontend: [http://help.easyfrontend.com](http://easyfrontend.com/)
